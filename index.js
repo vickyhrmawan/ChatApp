@@ -43,11 +43,6 @@ server.listen(port, () => console.log("server running on port " + port));
 //         console.log('user disconnected');
 //     });
 
-//     // socket.on("chat message", msg =>{
-//     //   console.log(msg);
-//     //   sock.sockets.emit("chat message", msg);
-//     // });
-
 //     socket.on('chat', function (data) {
 //         console.log(`${data.userName} send message`)
 //         sock.sockets.emit('chat', data)
